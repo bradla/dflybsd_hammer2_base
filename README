@@ -1,3 +1,7 @@
+git clone --depth 1 --filter=blob:none --sparse https://github.com/DragonFlyBSD/DragonFlyBSD.git
+cd DragonFlyBSD
+git sparse-checkout set sys/vfs/hammer2
+
 This is the top level of the DragonFly source directory.
 
 For copyright information, please see the file COPYRIGHT in this
